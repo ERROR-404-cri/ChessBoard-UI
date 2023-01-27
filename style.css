@@ -1,0 +1,30 @@
+.boardContainer {
+  flex-direction: column;
+  width: max-content;
+}
+.blackBox {
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  background-color: black;
+}
+
+.whiteBox {
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  background-color: white;
+}
+
+.blackBox:hover,
+.whiteBox:hover {
+  background-color: blueviolet;
+}
+
+.flex {
+  display: flex;
+}
+
+.colorBackground {
+  background-color: tomato;
+}
